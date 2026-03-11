@@ -1,7 +1,7 @@
 
 HU1
-HU2
-HU3
+HU2 - Miguel
+HU3 - Ana
 TT1
 TT2
 ...
