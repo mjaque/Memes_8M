@@ -1,0 +1,11 @@
+Compilar el programa:
+javac -d compilados fuentes/*.java
+
+Ejecutar el programa:
+java -cp compilados Memes8M
+
+Compilar las pruebas:
+javac -d tests/compilados -cp compilados:tests/lib/junit-platform-console-standalone-1.9.2.jar tests/*.java
+
+Ejecutar las pruebas:
+java -jar tests/lib/junit-platform-console-standalone-1.9.2.jar -cp compilados:tests/compilados --scan-classpath
