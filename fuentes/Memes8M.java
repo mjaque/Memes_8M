@@ -18,6 +18,7 @@ public class Memes8M{
 	**/
 	public static void main(String[] args){
 		presentar();
+		ejecutarMetodo2();
 	}
 
 	/**
@@ -27,5 +28,9 @@ public class Memes8M{
 		System.out.println("-- Juego de MEMES del 8 de Marzo -- ");
 		System.out.println();
 		System.out.println("¿Te dejas engañar por los memes?");
+	}
+
+	public static void ejecutarMetodo2(){
+		System.out.println("Método 2");
 	}
 }
