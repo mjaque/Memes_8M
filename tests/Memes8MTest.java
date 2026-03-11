@@ -33,4 +33,17 @@ class Memes8MTests {
 		String salida = baos.toString();
 		assertTrue(salida.contains("Juego de MEMES del 8 de Marzo"), "La salida no contiene el título esperado.");
 	}
+
+	@Test
+	@DisplayName("Test de ejecutarMetodo1")
+	public void testEjecutarMetodo1() {
+		try{
+			Integer resultado = Memes8M.ejecutarMetodo1(13);
+			assertEquals(26, resultado, "El método ejecutarMetodo1 no calcula bien el doble.");
+		}
+		catch(Exception e){
+			e.printStackTrace();
+			fail("Excepción inesperada.");
+		}
+	}
 }

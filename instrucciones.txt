@@ -9,3 +9,6 @@ javac -d tests/compilados -cp compilados:tests/lib/junit-platform-console-standa
 
 Ejecutar las pruebas:
 java -jar tests/lib/junit-platform-console-standalone-1.9.2.jar -cp compilados:tests/compilados --scan-classpath
+
+Generar la documentación:
+javadoc -d documentacion fuentes/*.java

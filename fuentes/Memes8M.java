@@ -18,6 +18,7 @@ public class Memes8M{
 	**/
 	public static void main(String[] args){
 		presentar();
+		System.out.println("El número doblado es " + ejecutarMetodo1(17));
 	}
 
 	/**
@@ -28,4 +29,14 @@ public class Memes8M{
 		System.out.println();
 		System.out.println("¿Te dejas engañar por los memes?");
 	}
+	
+	/**
+		Devuelve el doble del número recibido.
+		@param numero El número a doblar.
+		@return El doble del número recibido.
+	**/
+	public static Integer ejecutarMetodo1(Integer numero){
+		return numero * 2;
+	}
+
 }
